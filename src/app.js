@@ -15,8 +15,3 @@ res.render('index',{title:"Index"})
 
 app.listen(3000,()=>console.log('PS project running on port 3000'));
 
-
-function newFunction() {
-    app.set('views', path.join(__dirname, 'views'));
-}
-
